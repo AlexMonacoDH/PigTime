@@ -15,7 +15,9 @@ body {
     margin: 0;
 }
 
+
 /* HEADER */
+
 header {
     display: flex;
     width: 100%;
@@ -46,7 +48,9 @@ a {
     color: #47525E;
 }
 
+
 /* SEÇÃO DAS FOTOS */
+
 .secFotos {
     width: 100%;
     padding: 4% 2%;
@@ -59,7 +63,9 @@ a {
     padding: 0 1px;
 }
 
+
 /* SEÇAÕ DO SOBRE */
+
 .secSobre {
     width: 100%;
     padding-top: 0;
@@ -99,7 +105,9 @@ div article {
     margin: 5%;
 }
 
+
 /* SEÇÃO DO FUNCIONANMENTO */
+
 .secFunc {
     width: 100%;
     padding: 4% 2%;
@@ -114,7 +122,9 @@ iframe {
     height: 480px;
 }
 
+
 /* SEÇÃO DAS PERGUNTAS */
+
 .secPerg {
     width: 100%;
     padding: 0 10% 4% 10%;
@@ -164,6 +174,7 @@ iframe {
     transition: max-height 0.2s ease-out;
 }
 
+
 /* SEÇÃO DE REGRAS */
 
 .secRegras {
@@ -184,24 +195,34 @@ iframe {
     line-height: 2;
 }
 
+
 /* FOOTER */
 
 footer {
     width: 100%;
-    display: flex;
     background-color: #47525E;
 }
 
 .ftrComun {
-    display: grid;
-    padding: 5% 15%;
-}
-
-.ftrComun div {
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
 }
 
 footer a {
+    display: flex;
+    flex-direction: column;
     color: #fff;
-    margin: 0 1px;
+    margin: 2px 2px;
+    padding: 0;
+}
+
+footer p {
+    color: #fff;
+}
+
+#socialLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
